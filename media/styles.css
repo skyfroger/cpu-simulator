@@ -191,15 +191,15 @@ body {
 	color: #F00;
 }
 
-.fetch {
+.выборка {
 	background-color: #F00;
 }
 
-.decode {
+.декодирование {
 	background-color: #0F0;
 }
 
-.execute {
+.выполнение {
 	background-color: #00F;
 	color: #FFF;
 }

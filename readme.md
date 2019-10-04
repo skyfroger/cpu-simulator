@@ -1,23 +1,23 @@
-# HTML5 CPU Simulator (8 bit binary implementation of Little Man Computer)
+# HTML5 Симулятор процессора (8-ми битная реализация модели Little Man Computer)
 
 ![Von Neumann CPU Simulator for OCR A Level](https://tools.withcode.uk/cpu/thumb.jpg)
 
-## Summary
-This project is a simulation of the Little Man Computer CPU adapted to make it more suitable for OCR A Level students.
+## Краткая информация
+Этот проект является реализацией модели компьютера Little Man Computer (LMC).
 
-## Try it
-You can see a live demo of this project here: [tools.withcode.uk/cpu](https://tools.withcode.uk/cpu)
+## Проект в деле
+Живую демонстрацию работы модели (на английском языке) можно уведеть по следующей ссылке: [tools.withcode.uk/cpu](https://tools.withcode.uk/cpu)
 
-## Features
-This CPU simulation allows you to:
-- Step through each step of the fetch decode execute cycle
-- See which register is affected by each step with an explanation of what's happening
-- See how data changes in each register 
-- Write & run your own code on the CPU
-- Save / Share your code
-- View and run example code 
+## Возможности сумулятора
+Симулятор процессора даёт возможность:
+- Пошагово проследить за всеми стадиями цикла Выборки, Декодирования и Выполнения
+- Увидеть, какие регистры изменяются на каждом шаге и получить объяснение происходящего
+- Увидеть, как меняются значения в каждом из регистров 
+- Написать и запустить собственную программу для процессора
+- Сохранить вашу программу
+- Просмотреть и запустить примеры программ 
 
-## Background
+## Краткая теория
 The Little Man Computer (LMC) model CPU is a brilliant way of introducting students to the fetch-decode-execute cycle that controls how a CPU operates.
 
 The LMC simplifies the insides of a CPU down to just three registers:
@@ -39,7 +39,7 @@ For A-Level (my students are studying the OCR course), you also need to be aware
 I wanted to create a simulator that would incorporate all of the above whilst still remaining as simple as possible.
 The aim of this project is to explain what happens at each stage of the fetch, decode, execute cycle in terms of the flow of data between registers and busses.
 
-## Key differences from LMC
+## Ключевые отличия модели от LMC
 A Little Man Computer CPU has 99 mailboxes (memory locations) which can each store a signed integer between -999 and 999.
 Instructions on a LMC are stored as 3 digit denary numbers where the most significant digit represents the instruction and the least significant two digits are the address.
 
